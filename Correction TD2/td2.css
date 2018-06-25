@@ -1,0 +1,185 @@
+/*EXO 1*/
+h2 {
+ color: blue; 
+ text-align: right;
+ font-size: 14pt;
+ font-family: Arial;
+ }
+h3 {
+ color: red; 
+ text-align: right;
+ font-size: 14pt;
+ font-family: Arial;
+ }
+ h4 { 
+ color: green; 
+ text-align: right;
+ font-size: 14pt;
+ font-family: Arial;
+ }
+ p{
+text-align: justify;
+font-family: Arial;
+text-indent: 2cm;
+ }
+
+body{
+background-image: url('images/back.gif');
+background-repeat : no-repeat;
+background-position : right bottom;
+background-attachment : fixed;
+}
+
+/*FIN EXO1*/
+
+/*EXO2*/
+
+a{
+text-decoration : none;
+color: cyan; 
+}
+a:hover{
+text-decoration : underline;
+color: cyan; 
+}
+
+.externe{
+text-decoration : none;
+color: red;
+}
+
+.externe:hover{
+text-decoration : underline;
+color: black; 
+}
+
+.RendezVous{
+background-image : url('images/vieux-livre.gif');
+}
+
+.information{
+background-image : url('images/BackTitre.gif');
+}
+#menu ul{
+	list-style-type: none;
+	padding:0;
+	top : 0px;
+	width: auto;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+}
+#menu li{
+	margin-left:auto;
+	margin-right:auto;
+	float: right;
+	width: auto;
+}
+#menu a {
+	height: 20px;
+	display: block;
+	text-align: center;
+	border: 1px solid #CCCCCC; 
+	text-decoration: none;
+	color: #000; 
+	background: #fff;
+	border-spacing: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#menu .sousMenu{
+display : none;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+#menu .sousMenu li{
+ float: none;
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+#menu li:hover > .sousMenu { display: block; }
+/*FIN EXO2*/
+
+/*EXO3*/
+h1 {
+color: red; 
+background-color : black;
+ }
+h3 {
+color: red; 
+background-color : black;
+ }
+
+body {
+color: green; 
+ }
+
+.jaune {
+background-color : yellow;
+ }
+  
+.fondgris{
+background-color : grey;
+}
+.textevert{
+color : green;
+}
+.textejaune{
+color : yellow;
+}
+/*FIN EXO3*/
+
+/*EXO 4*/
+
+#menu{
+background-color : red;
+}
+*[id] {
+color : black;
+background-color : yellow;
+}
+h1[title] {
+color : blue;
+}
+
+h1{
+color : black;
+}
+
+body p{
+color : grey;
+}
+
+div p{
+color : brown;
+}
+
+h1:hover{
+color : red;
+}
+
+p{
+color : grey;
+}
+p:first-line{
+color: red;
+}
+/*FIN EXO 4*/
+
+/*EXO 5*/
+ol li:first-of-type{
+color : red;
+}
+
+ol li{
+color : green;
+}
+
+ul li{
+color : yellow;
+}
+/*FIN EXO 5*/
